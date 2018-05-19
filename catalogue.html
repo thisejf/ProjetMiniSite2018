@@ -4,16 +4,17 @@
 	<meta charset="UTF-8">
 	<title>Mini Site - Catalogue</title>
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
-	<header>
-		<a href="#"><img src="content/logo.png"></a>
+<body class="container-mobile-1-tab-6-desktop-12">
+	<header class="container-mobile-1-tab-6-desktop-12">
+		<a href="#" class="logo"><img src="content/logo.png" title="logo"></a>
 		<form action="" method="POST">
-			<input type="search" name="search" value=""/>
-			<input type="submit" name="send" value="OK"/>
+			<input type="search" name="search" value="" placeholder="Que recherchez-vous?" class="search" />
+			<input type="submit" name="send" value="OK" class="green" />
 		</form>
-		<nav>
+		<nav class="menu">
 			<ul>
 				<li><a href="#"></a>ACCUEIL</li>
 				<li><a href="#"></a>MEUBLES</li>
@@ -22,12 +23,13 @@
 				<li><a href="#"></a>CONTACT</li>
 			</ul>
 		</nav>
-		<div>
-			<p>VOUS ÊTES ICI:<a href="#">CHAISES</a></p>
+		<hr>
+		<div class="filAriane green">
+			<p>VOUS ÊTES ICI: <a href="#">CHAISES</a></p>
 		</div>
 	</header>
 	<main>
-		<nav>
+		<nav class="menu2">
 			<h2><a href="#">CHAISES</a></h2>
 			<ul>
 				<li><a href="#">Cuisine</a></li>

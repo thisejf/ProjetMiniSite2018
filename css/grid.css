@@ -8,7 +8,7 @@ html
 }
 
 html{
-
+	
 }
 
 [class*="container"]{
@@ -17,7 +17,7 @@ html{
 	flex-wrap: wrap;
 }
 
-[class*="mobile-1"] > * {
+[class*="-mobile-1"] > * {
 	flex-grow: 1;
 	flex-shrink: 1;
 	flex-basis: calc(100%);
