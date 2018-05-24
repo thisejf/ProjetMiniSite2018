@@ -26,9 +26,12 @@ html{
 @media screen and (min-width: 600px) {
 
 /*tablet grid 6*/
-	
-	[class*="-tab-6"]{
+
+	[class*="container"], body:not{
 		flex-direction: row;
+	}
+
+	[class*="-tab-6"]{
 		margin-left: -2rem;
 	}
 
