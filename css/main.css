@@ -52,7 +52,7 @@ input{
 	width: 4rem;
 }
 
-.green, .menu2 h2:hover{
+.green, .menu2 h2:hover, article ul{
 	background-color: #AAD5DF;
 }
 
@@ -61,13 +61,41 @@ input{
 }
 
 .menu2 h2{
-	border-bottom: 1px solid #A38A7C;
+	border-bottom: 0.1rem solid #AAD5DF;
+	max-width: 90%;
 	padding:0.5rem;
+}
+
+.menu2 a{
+	display: block;
 }
 
 .filAriane p{
 	font-size: 1.5rem;
+}
+
+article{
+	border: 0.1rem solid #AAD5DF;
+	padding: 1.5rem;
+}
+
+.filAriane p, article ul li{
 	color: #FFF;
+}
+
+article ul{
+	padding:0.2rem;
+}
+
+article ul li{
+	font-size: 1.3rem;
+	text-align: right;
+}
+
+
+h3{
+	font-size: 1.5rem;
+	color: #AAD5DF;
 }
 
 .clearfix{
