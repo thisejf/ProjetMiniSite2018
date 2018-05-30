@@ -27,12 +27,8 @@ html{
 
 /*tablet grid 6*/
 
-	[class*="container"], body:not{
+	[class*="container"]{
 		flex-direction: row;
-	}
-
-	[class*="-tab-6"], body:not{
-		margin-left: -2rem;
 	}
 
 	[class*="-tab-6"] > * {
@@ -71,7 +67,6 @@ html{
 	
 	[class*="-desktop-12"] > * {
 		flex-grow: 0;
-		flex-shrink: 1;
 		flex-basis: calc(100% * 1/12 - 2rem);
 	}
 
