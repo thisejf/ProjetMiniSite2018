@@ -163,7 +163,7 @@ section > *{
 		margin-left: -2rem;
 	}
 
-	article, article > *{
+	article, article a > *{
 		transition-property: all;
 		transition-duration: 1s;
 		transition-delay: 1ms;
