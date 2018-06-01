@@ -1,20 +1,17 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	color: #000;
-	margin: 0;
 	font-size: 1.2rem;
+	width: 100%;
+	margin: 0 auto;
 }
 
 li{
 	list-style-type: none;
 }
 
-header{
-	position: relative;
-}
-
 hr{
-	min-width: 100%;
+	min-width: 100vw;
 	color: #A38A7C;
 	opacity: 0.5;
 	margin: 1.5rem 0;
@@ -61,8 +58,14 @@ input{
 	background-color: #AAD5DF;
 }
 
+
 .menu, .menu2 li{
 	display: none;
+	text-align: center;
+}
+
+.menu ul li a:hover{
+	border-bottom: 2px solid #552a20;
 }
 
 .menu2 h2{
@@ -97,8 +100,12 @@ article ul li{
 	text-align: right;
 }
 
+article > img{
+	display:none;
+}
 
-h3 a{
+
+h3{
 	font-size: 1.5rem;
 	color: #AAD5DF;
 }
@@ -116,12 +123,18 @@ section > *{
 }
 
 @media screen and (min-width: 600px){
-	header, main{
-		margin: 0 auto;
+
+	header, main,section{
+		margin-left: -1rem;
 	}
 
 	.menu, .menu2 li{
-		display: block;
+		display: flex;
+	}
+
+	.menu ul{
+		justify-content: space-around;
+		padding: 0;
 	}
 
 	form{
@@ -135,10 +148,40 @@ section > *{
 
 	section{
 		margin-top:0;
-		margin-left: -2rem;
+	}
+	article > img{
+		display:block;
 	}
 }
 
 @media screen and (min-width: 900px){
+	body{
+		max-width: 1024px;
+	}
 
+	header, main,section{
+		margin-left: -2rem;
+	}
+
+	article, article > *{
+		transition-property: all;
+		transition-duration: 1s;
+		transition-delay: 1ms;
+		transition-timing-function: ease-out;
+	}
+
+	article:hover
+	{
+		box-shadow: 0px 0px 1rem #552a20;
+	}
+
+	article ul{
+		width: 0px;
+		visibility:hidden;
+	}
+
+	article:hover ul{
+		width:100%;
+		visibility: visible;
+	}
 }
