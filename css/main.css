@@ -12,8 +12,6 @@ li{
 
 hr{
 	min-width: 100%;
-	color: #A38A7C;
-	opacity: 0.5;
 	margin: 1.5rem 0;
 }
 
@@ -81,6 +79,11 @@ input{
 .filAriane p{
 	font-size: 1.5rem;
 	padding: 0 1rem;
+}
+
+.brun, hr{
+	color: #A38A7C;
+	opacity: 0.5rem;
 }
 
 article{

@@ -9,7 +9,7 @@
 </head>
 <body class="container-mobile-1-tablette-desktop-12">
 	<header class="container-mobile-1-tablette-desktop-12-tab-12-big-12">
-		<a href="#" class="logo -tab-6-big-6"><img src="content/logo.png" title="logo"></a>
+		<a href="index.php" class="logo -tab-6-big-6"><img src="content/logo.png" title="logo"></a>
 		<form action="" method="POST" class="form container-tab-6-big-6">
 			<div>
 				<input type="search" name="search" value="" placeholder="Que recherchez-vous?" class="search" />
@@ -29,7 +29,7 @@
 			</ul>
 	</nav>
 	<div class="filAriane green -tab-12-big-12">
-			<p>VOUS ÊTES ICI: <a href="#">CHAISES</a></p>
+			<p>VOUS ÊTES ICI: <a href="catalogue.php">CHAISES</a></p>
 	</div>
 	<main class="container-mobile-1-tablette-desktop-12-tab-12-big-12">
 		<nav class="menu2 tab-2-big-3">
@@ -50,7 +50,7 @@
 		</nav>
 		<section class="container-mobile-1-tablette-desktop-12-tab-7-big-9">
 			<article class="-tab-12-big-4 bombay">
-				<a href="#">
+				<a href="detailBombay.php">
 					<img src="content/IMG_7957x z_275x275.jpg" title="Chaise Bombay">
 					<h3>Bombay</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus delectus sed, molestias quod, autem ab beatae modi minus vero tenetur facilis iste blanditiis itaque quaerat, possimus provident saepe explicabo? Facere.
@@ -61,7 +61,7 @@
 				 </a>
 			</article>
 			<article class="-tab-12-big-4 kimaAcier">
-				<a href="#">
+				<a href="detailKimaAcier.php">
 					<img src="content/IMG_5792_275x275.jpg" title="Chaise Kima Acier">
 					<h3>Kima Acier</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor odio rerum recusandae officiis molestias corporis repellendus, hic qui consectetur quo numquam, sint! Quas animi est repudiandae, fugit, nam praesentium explicabo.</p>
