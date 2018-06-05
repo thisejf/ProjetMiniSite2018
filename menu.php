@@ -1,6 +1,6 @@
 <header class="container-mobile-1-tablette-desktop-12-tab-12-big-12">
-		<a href="index.html" class="logo -tab-6-big-6"><img src="content/logo.png" title="logo"></a>
-		<form action="" method="POST" class="form container-tab-6-big-6">
+		<a href="index.html" class="logo -tab-6-big-6"><img src="content/logo.png" alt="logo"></a>
+		<form action="#" method="POST" class="form container-tab-6-big-6">
 			<div>
 				<input type="search" name="search" value="" placeholder="Que recherchez-vous?" class="search" />
 				<input type="submit" name="send" value="OK" class="green ok" />
