@@ -91,11 +91,11 @@ article{
 	padding: 1.5rem;
 }
 
-.filAriane p, article ul li{
+.filAriane p, article ul li, .descrition .green{
 	color: #FFF;
 }
 
-article ul{
+article ul, .descrition .green{
 	padding:0.2rem;
 }
 
@@ -114,6 +114,10 @@ h3{
 	color: #AAD5DF;
 }
 
+h4{
+	font-size: 1.4rem;
+}
+
 section{
 	margin-top: -1rem;
 }
@@ -122,9 +126,21 @@ section > *{
 	margin-top: 1rem;
 }
 
+.imagebox{
+	order:1;
+}
+
 .imagebox > img{
 	object-fit: contain;
-	max-width: 80%;
+	max-width: 100%;
+}
+
+.descrition{
+	padding: 1rem;
+}
+
+.descrition .green{
+	width: 50%;
 }
 
 .clearfix{
@@ -164,6 +180,7 @@ section > *{
 
 	.imagebox{
 		justify-content:space-around;
+		order:0;
 	}
 
 	.imagebox > img{

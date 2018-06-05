@@ -26,13 +26,13 @@
 			
 					<img src="content/small-CHR-59-04.jpg" alt="Chaise Bombay small picture">
 		</section>
-		<section class="container-mobile-1-tablette-desktop-12-tab-12-big-6">
+		<section class="container-mobile-1-tablette-desktop-12-tab-12-big-6 descrition">
 			<div class="-tab-12-big-12">
-				<h2>Bombay</h2>
-				<h3>Chaide de bar industrielle en cuir marron</h3>
+				<h2>Bombay :</h2>
+				<h3>Chaise de bar industrielle en cuir marron</h3>
 				<p>Le siège en cuir n'est pas complètement fini, donnant aux chaises un joli look vintage!<br>Un design cool que vous pouvez combiner avec, par exemple, une table en bois.</p>
 				<p class="green">Prix: 119eur</p>
-				<h4>Spécifications</h4>
+				<h4>Spécifications :</h4>
 				<p><b>Hauteur d'assise:</b> 75 cm</p>
 				<p><b>Hauteur totale:</b> 105 cm</p>
 				<p><b>Largeur:</b> 51 cm</p>

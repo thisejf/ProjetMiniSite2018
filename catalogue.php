@@ -36,7 +36,7 @@
 				<a href="detailBombay.php">
 					<img src="content/IMG_7957xz_275x275.jpg" alt="Chaise Bombay">
 					<h3>Bombay</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus delectus sed, molestias quod, autem ab beatae modi minus vero tenetur facilis iste blanditiis itaque quaerat, possimus provident saepe explicabo? Facere.
+					<p>Bombay : Chaise de bar industrielle en cuir marron. Le siège en cuir n'est pas complètement fini, donnant aux chaises un joli look vintage! Un design cool que vous pouvez combiner avec, par exemple, une table en bois.
 					 </p>
 					 <ul>
 					 	<li>119€</li>
@@ -47,7 +47,7 @@
 				<a href="detailKimaAcier.php">
 					<img src="content/IMG_5792_275x275.jpg" alt="Chaise Kima Acier">
 					<h3>Kima Acier</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor odio rerum recusandae officiis molestias corporis repellendus, hic qui consectetur quo numquam, sint! Quas animi est repudiandae, fugit, nam praesentium explicabo.</p>
+					<p>Kima Acier : Chaise design en acier. Le design composé de barres d'acier, donne aux chaises un joli look contemporain! Un style authentique que vous pouvez combiner avec, par exemple, une table en verre.</p>
 					<ul>
 					 	<li>99€</li>
 					 </ul>
@@ -57,7 +57,7 @@
 				<a href="#">
 					<img src="content/IMG_06579_275x275.jpg" alt="Chaise Peaky Blue">
 					<h3>PeakyBlue</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi earum eius quam amet esse cupiditate alias culpa vel error, eaque ex quos repellat laborum aut explicabo tempora possimus tenetur ratione?</p>
+					<p>Peaky Blue : Chaise vintage bleu. Tout droit venue des années 70, cette chaise apportera un style vintage à votre intérieur. Vous pourrez la combiner avec notre table Futura sans hésitation!</p>
 					<ul>
 					 	<li>79€</li>
 					</ul>
@@ -67,7 +67,7 @@
 				<a href="#">
 					<img src="content/IMG_3291_275x275.jpg" alt="Chaise DSW Red">
 					<h3>DSW Red</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, est doloremque excepturi et id maxime, veritatis nemo inventore impedit suscipit saepe ratione quia commodi? Quia accusamus tenetur at rerum fuga?</p>
+					<p>DSW Red : Chaise vintage rouge. Proche de sa cousine, la chaise Peaky Blue, la DSW Red donnera une touche glamour à votre intérieur. Cette Red touch accompagnera tout style de table.</p>
 					<ul>
 					 	<li>89€</li>
 					</ul>
@@ -77,9 +77,9 @@
 				<a href="#">
 					<img src="content/IMG_5793_275x275.jpg" alt="Chaise V Bar">
 					<h3>V Bar</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa exercitationem repellat harum pariatur, laboriosam quod explicabo obcaecati molestiae saepe, magni quibusdam accusantium deserunt animi, quam. Neque iure culpa aperiam!</p>
+					<p>V Bar : Chaire de bar en acier. Il s'agit de la version haute de la chaise Kima Acier. Tout comme sa grande soeur, elle accompagnera parfaitement une haute table en verre</p>
 					<ul>
-					 	<li>69€</li>
+					 	<li>129€</li>
 					</ul>
 				</a>
 			</article>
@@ -87,7 +87,7 @@
 				<a href="#">
 					<img src="content/IMG_0797_275x275.jpg" alt="Chaise Pezi">
 					<h3>Pezi</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem at praesentium, rerum qui consectetur, ab dolor consequuntur ut molestias, amet eaque autem dolores numquam ipsa, voluptatum quaerat quasi natus vel.</p>
+					<p>Pezi : Chaise en acier vieilli. Le design composé de barres d'acier arrondies, donne aux chaises un joli look rural! Un style authentique que vous pouvez combiner avec, par exemple, une table en bois</p>
 					<ul>
 					 	<li>69€</li>
 					</ul>
@@ -97,7 +97,7 @@
 				<a href="#">
 					<img src="content/IMG_1898_275x275.jpg" alt="Chaise Tulip">
 					<h3>Tulip</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, alias ullam, earum natus, perferendis explicabo, reiciendis suscipit fugit possimus facilis molestiae assumenda doloribus quod magnam. Cum consectetur nisi, eaque quam?</p>
+					<p>Tulip : Chaise en verre. Cette superbe chaise en verre est signé Juan Franscesco, designeur italien des années 70, inspiré par la célébre tulipe d'Amsterdam. Un style élégant en toute circonstance.</p>
 					<ul>
 					 	<li>89€</li>
 					</ul>
@@ -107,7 +107,7 @@
 				<a href="#">
 					<img src="content/IMG_86963_275x275.jpg" alt="Chaise Bertola">
 					<h3>Bertola</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab qui adipisci architecto non deserunt, eligendi porro, nam reprehenderit mollitia dicta animi quod ut? Ratione ut quisquam odio, quam quis ullam!</p>
+					<p>Bertola : Chaise vintage confort. Un style vintage, de l'acier brut et un agréable coussin en cuir noir. La recette parfaite pour soutenir lors de vos soirées entre amis!</p>
 					<ul>
 					 	<li>79€</li>
 					</ul>
