@@ -11,10 +11,10 @@
 	<hr class="-tab-12-big-12">
 	<nav class="menu container-mobile-1-tablette-desktop-12-tab-12-big-12">
 			<ul class="container-mobile-1-tablette-desktop-12-tab-6-big-12">
-				<li><a href="#">ACCUEIL</a></li>
+				<li><a href="index.html">ACCUEIL</a></li>
 				<li><a href="#">MEUBLES</a></li>
 				<li><a href="#">LUMINAIRES</a></li>
 				<li><a href="#">ACCESSOIRES</a></li>
-				<li><a href="#">CONTACT</a></li>
+				<li><a href="contact.php">CONTACT</a></li>
 			</ul>
 	</nav>

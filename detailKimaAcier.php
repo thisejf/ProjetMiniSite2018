@@ -11,8 +11,8 @@
 	
 	<?php include("menu.php"); ?>
 
-	<div class="filAriane green -tab-12-big-12">
-			<p>VOUS ÊTES ICI: <a href="catalogue.php">CHAISES</a> ><strong class="brun"> Kima Acier</strong></p>
+	<div class="filAriane green container-mobile-1-tablette-desktop-12-tab-12-big-12">
+			<p class="-tab-12-big-12">VOUS ÊTES ICI: <a href="catalogue.php">CHAISES</a> ><strong class="brun"> Kima Acier</strong></p>
 	</div>
 	<main class="container-mobile-1-tablette-desktop-12-tab-12-big-12">
 		<section class="container-mobile-1-tablette-desktop-12-tab-12-big-6 imagebox">

@@ -56,6 +56,10 @@ input{
 	background-color: #AAD5DF;
 }
 
+.lightgreen
+{
+	background-color:#AAD5DF7F;
+}
 
 .menu, .menu2 li{
 	display: none;
@@ -204,11 +208,14 @@ section > *{
 		justify-content: center;
 	}
 
-	article, article a > *{
-		transition-property: all;
+	article, article ul{
 		transition-duration: 1s;
 		transition-delay: 1ms;
 		transition-timing-function: ease-out;
+	}
+
+	article{
+		transition-property: box-shadow;
 	}
 
 	article:hover
@@ -218,6 +225,7 @@ section > *{
 
 	article ul{
 		width: 0px;
+		transition-property: width, visibility;
 		visibility:hidden;
 	}
 
