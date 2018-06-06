@@ -140,12 +140,16 @@ section > *{
 	max-width: 100%;
 }
 
-.descrition{
+.description{
 	padding: 1rem;
 }
 
 .descrition .green{
 	width: 50%;
+}
+
+.descrition h2 p{
+	margin: 0;
 }
 
 .clearfix{

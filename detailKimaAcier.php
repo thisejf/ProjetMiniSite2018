@@ -26,7 +26,7 @@
 			
 					<img src="content/no_pict.jpg" alt="Chaise Bombay small picture">
 		</section>
-		<section class="container-mobile-1-tablette-desktop-12-tab-12-big-6 descrition">
+		<section class="container-mobile-1-tablette-desktop-12-tab-12-big-6 description">
 			<div class="-tab-12-big-12">
 				<h2>Kima Acier :</h2>
 				<h3>Chaise design en acier</h3>
