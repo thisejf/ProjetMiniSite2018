@@ -411,6 +411,10 @@ iframe, .slider{
 		margin-left: auto;
 	}
 
+	.checkbox input{
+		max-height: 1rem;
+	}
+
 	.news{
 		min-width: 65%;
 	}

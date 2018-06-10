@@ -16,7 +16,7 @@
 	</div>
 	<main class="container-mobile-1-tablette-desktop-12-tab-12-big-12">
 		<section class="-tab-12-big-12">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.1414889626417!2d5.55828945130164!3d50.64306338124775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0fa164d342d39%3A0xa33e2d934b144ff1!2sInstitut+Saint-Laurent+de+Promotion+Sociale!5e0!3m2!1sfr!2sbe!4v1528396467475" frameborder="0" allowfullscreen></iframe>	
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.1414889626417!2d5.55828945130164!3d50.64306338124775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0fa164d342d39%3A0xa33e2d934b144ff1!2sInstitut+Saint-Laurent+de+Promotion+Sociale!5e0!3m2!1sfr!2sbe!4v1528396467475" allowfullscreen></iframe>	
 		</section>
 		<section class="container-mobile-1-tablette-desktop-12-tab-12-big-12 hauteur">
 			<div class="description green -tab-12-big-4">
@@ -44,7 +44,7 @@
 						<label class="big-2" for="email">E-mail:</label>
 						<input class="big-11" type="text" name="email" id="email" value="">
 						<div class="container-mobile -desktop-12 -big-12 checkbox">
-							<input type="checkbox" name="news" id="news" value="">
+							<input type="checkbox" name="news" id="news" checked value="">
 							<label class="news -big-8" for="news">Je désire recevoir la newsletter</label>
 						</div>
 						<input class="-tab-12-big-6" type="submit" name="send" value="Envoyer">
