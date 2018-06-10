@@ -44,7 +44,7 @@
 						<label class="big-2" for="email">E-mail:</label>
 						<input class="big-11" type="text" name="email" id="email" value="">
 						<div class="container-mobile -desktop-12 -big-12 checkbox">
-							<input type="checkbox" name="news" id="news" value="">
+							<input type="checkbox" name="news" id="news" checked value="">
 							<label class="news -big-8" for="news">Je désire recevoir la newsletter</label>
 						</div>
 						<input class="-tab-12-big-6" type="submit" name="send" value="Envoyer">
