@@ -24,7 +24,7 @@ img{
 	max-width: 100%;
 }
 
-.logo{
+.logo, .menu, .menu2 li, .horaire p:last-of-type{
 	text-align: center;
 }
 
@@ -64,7 +64,6 @@ input{
 
 .menu, .menu2 li{
 	display: none;
-	text-align: center;
 }
 
 .menu ul li a:hover{
@@ -107,7 +106,6 @@ article ul, .descrition .green{
 
 article ul li{
 	font-size: 1.3rem;
-	text-align: right;
 }
 
 article a > img, .imagebox > img:first-of-type{
@@ -120,7 +118,7 @@ h3{
 	color: #AAD5DF;
 }
 
-h4{
+h4, .horaire{
 	font-size: 1.4rem;
 }
 
@@ -140,9 +138,17 @@ section > *, .formulaire label{
 	order:1;
 }
 
-.imagebox > img{
+.imagebox > img, .pub > img, .open > img{
 	object-fit: contain;
 	max-width: 100%;
+}
+
+.open{
+	order: -1;
+}
+
+.pub > img:nth-child(n+2){
+	display: none;
 }
 
 .description > *{
@@ -170,13 +176,48 @@ textarea{
 	flex:1;
 }
 
-iframe{
+iframe, .slider{
 	display: none;
+}
+
+.horaire{
+	background-image:url(../imgHomePage/home_page_corner.png);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: right bottom;
+	max-width: 100%;
+}
+
+.horaire p{
+	background-color: #FFF;
+}
+
+.horaire p, .horaire ul{
+	padding: 0 1rem;
+	margin: 0 1rem;
+}
+
+.horaire p:first-of-type{
+	font-size: 2.5rem;
+}
+
+.horaire ul li:before{
+	content:"- ";
+}
+
+.horaire p:last-of-type{
+	border: 1px solid #FFF;
+	border-radius: 0.5rem;
+	max-width: 50%;
+	float: right;
+	margin-bottom: 1rem;
 }
 
 .clearfix{
 	clear: both;
 }
+
+/***************************************************** 	vue tablette 	*************************************************/
 
 @media screen and (min-width: 600px){
 
@@ -205,7 +246,7 @@ iframe{
 	section{
 		margin-top:0;
 	}
-	article a > img{
+	article a > img, iframe{
 		display:block;
 	}
 
@@ -215,8 +256,35 @@ iframe{
 	}
 
 	.imagebox > img{
-		object-fit: contain;
 		max-width: 20%;
+	}
+
+	.pub{
+		justify-content: space-between;
+	}
+
+	.pub > img:nth-child(n+2){
+		display: block;
+	}
+
+	.pub > img:first-of-type, .open > img{
+		max-width: 100%;
+	}
+
+	.pub > img:first-of-type{
+		max-height: 300px;
+	}
+
+	.pub > img, .open > img{
+		max-height: 250px;
+	}
+
+	.pub > img{
+		max-width: calc(100% * 1/3 - 2rem);
+	}
+
+	.imagebox > img, .accueilImarge > img{
+		object-fit: contain;
 	}
 
 	.formulaire div{
@@ -224,13 +292,26 @@ iframe{
 		padding-right: 0;
 	}
 
-	iframe{
-		display: block;
-		border: 1px solid #552a20;
-		width: 100%;
+	.slider{
+		display: flex;
+		background-image: url(../imgHomePage/slide.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
+		max-width: 100%;
+	}
+
+	.slider, iframe{
 		height: 30rem;
 	}
+
+	iframe{
+		border: 1px solid #552a20;
+		width: 100%;
+	}
 }
+
+/***************************************************** 	vue bureau 	*************************************************/
 
 @media screen and (min-width: 900px){
 	body{
@@ -287,11 +368,24 @@ iframe{
 		max-height: 100px;
 	}
 
+	.open{
+		order: 0;
+		margin: 0 auto;
+	}
+
+	.pub > img:first-of-type{
+		max-height: 250px;
+	}
+
+	.pub > img, .open > img{
+		max-height: 150px;
+	}
+
 	.hauteur > *{
 		flex-grow: 1;
 	}
 
-	.hauteur div:first-of-type{
+	.hauteur div:first-of-type, .pub > img:nth-child(2), .news{
 		margin-left: 0;
 	}
 
@@ -319,11 +413,14 @@ iframe{
 
 	.news{
 		min-width: 65%;
-		margin-left: 0;
 	}
 	
-	.news, .formulaire div label{
+	.news, .formulaire div label, article ul li{
 		text-align: right;
+	}
+
+	.slider{
+		height: 30rem;
 	}
 
 
