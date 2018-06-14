@@ -80,10 +80,21 @@ input{
 	display: block;
 }
 
-.filAriane p{
+.filAriane ul{
 	font-size: 1.5rem;
-	padding: 0 1rem;
+	padding: 0 2rem;
+}
 
+.filAriane ul li{
+	display: inline-block;
+}
+
+.filAriane ul li:first-of-type::before{
+	content: "VOUS ÊTES ICI: ";
+}
+
+.filAriane ul li::before{
+	content: " > ";
 }
 
 .brun, hr{
@@ -96,7 +107,7 @@ article{
 	padding: 1.5rem;
 }
 
-.filAriane p, article ul li, .descrition .green{
+.filAriane ul li:first-of-type::before,.filAriane ul li::before ,article ul li, .descrition .green{
 	color: #FFF;
 }
 

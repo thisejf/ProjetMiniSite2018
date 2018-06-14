@@ -12,7 +12,9 @@
 	<?php include("menu.php"); ?>
 	
 	<div class="filAriane green container-mobile-1-tablette-desktop-12-tab-12-big-12">
-			<p class="-tab-12-big-12">VOUS ÊTES ICI: <a href="contact.php">CONTACT</a></p>
+			<ul class="-tab-12-big-12">
+				<li><a href="contact.php">CONTACT</a></li>
+			</ul>
 	</div>
 	<main class="container-mobile-1-tablette-desktop-12-tab-12-big-12">
 		<section class="-tab-12-big-12">
